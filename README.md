@@ -1,4 +1,4 @@
-#상품 주문 처리
+# 상품 주문 처리
 ## 1. 계층 설계
 - Controller, Service, DAO, DB로 계층 구성
 - Controller -> Service 에서는 DTO를 통해 데이터를 받아 Service 계층에서 DTO를 Entity로 변환하여 DAO에 넘김
