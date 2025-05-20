@@ -12,6 +12,7 @@
 - Order의 외래키로 Product, Member의 기본키를 설정
 ## 4. 명세
 - Swagger를 사용하여 명세 작성
+- ![Image](https://github.com/user-attachments/assets/ed45dc06-490c-447a-bb2f-c1c2d8fe3ef3)
 ## 5. 기능
 - 회원, 상품에 대한 정보는 기본적으로 CRUD 가능
 - 회원 정보는 이름과 등급을 수정하는 기능이 각각 있음
