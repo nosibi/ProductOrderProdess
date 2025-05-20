@@ -23,3 +23,8 @@
 - DB에는 주문자(회원), 주문한 상품(상품)의 id 값으로 표기되지만 주문 내역을 조회하면 이름으로 반환하도록 구현
 ![Image](https://github.com/user-attachments/assets/561eca7e-3061-4789-9a0c-415605808e12)
 ![Image](https://github.com/user-attachments/assets/720b0523-f673-402f-a40d-c72a22f966e9)
+## 6. 보완할 점
+- 상품명으로 분류하기보다 카테고리로 분류하고 세부 상품명으로 테이블을 구성하는 것이 더 현실적임
+- 회원 등급에 따른 가격 할인을 적용하는 기능을 추가 구현
+- 상품 주문 시 id가 아닌 상품명으로 주문하게 수정 필요 ----> QueryDSL을 사용하여 CustomRepository 구성 필요
+- 테스트 코드를 별도로 작성하지 않고 Talend API Tester로 테스트를 했는데 TDD 개발을 위해서는 테스트 코드를 별도로 작성할 필요가 있음
